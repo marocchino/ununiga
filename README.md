@@ -46,7 +46,7 @@ links:
 
 # Rails의 ActiveModel/ActiveRecord의 Validation을 사용할 경우
 errors:
-  # 디폴트는 `%{attribute} %{message}`형식으로 띄워쓰기가 되어 있으며로 format을 붙여쓰기로 변경해줍니다.
+  # 디폴트는 `%{attribute} %{message}`형식으로 띄워쓰기가 되어 있으므로 format을 붙여쓰기로 변경해줍니다.
   foramt: "%{attribute}%{message}"
   messages:
     accepted: 을(를) 반드시 확인해야 합니다.
