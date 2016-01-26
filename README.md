@@ -17,7 +17,7 @@ require 'ununiga'
 
 Ununiga::JosaPicker.takewell("레일즈와(과) 쟝고은(는) 싸우지 않습니다.")
 # => "레일즈와 쟝고는 싸우지 않습니다."
-Ununiga::JosaPicker.takewell("트위터(으)로 로그인합니다.")
+Ununiga::JosaPicker.takewell("페치스북(으)로 로그인합니다.")
 # => "페이스북으로 로그인합니다."
 
 picker = Ununiga::JosaPicker.new("레일즈은(는) 루비을(를) 사용합니다.")
